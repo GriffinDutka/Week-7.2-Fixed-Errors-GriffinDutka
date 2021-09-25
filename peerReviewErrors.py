@@ -20,7 +20,7 @@ def chooseCave():
     while cave != '1' and cave != '2':
         print('Which cave will you go into? (1 or 2)')
         cave = input()
-    return cave
+    return cave #Fixed Error on this line
 
 def checkCave(chosenCave):
 	print('You approach the cave...')
@@ -38,16 +38,16 @@ def checkCave(chosenCave):
 	if chosenCave == str(friendlyCave):
 		print('Gives you his treasure!')
 	else:
-		print('Gobbles you down in one bite!')
+		print('Gobbles you down in one bite!') #Fixed Error on this line
 
 playAgain = 'yes'
-while playAgain == 'yes' or playAgain == 'y':
+while playAgain == 'yes' or playAgain == 'y': #Fixed Error on this line
 	displayIntro()
-	caveNumber = chooseCave()
+	caveNumber = chooseCave() #Fixed Error on this line
 	checkCave(caveNumber)
     
 	print('Do you want to play again? (yes or no)')
 	playAgain = input()
-	if playAgain == "no" or playAgain == "n": 
-		print("Thanks for playing") 
+	if playAgain == "no" or playAgain == "n": #Fixed Error on this line
+		print("Thanks for playing") #Saw a typo here / Fixed 
 
