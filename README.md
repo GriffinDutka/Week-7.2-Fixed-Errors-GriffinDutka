@@ -27,6 +27,7 @@ The system has three different kinds of material, and most of the design follows
 5. [Review runtime](docs/05-review-runtime.md): the agent loop that produces repeatable output
 6. [Drift and evolution](docs/06-drift-and-evolution.md): building on context without rot
 7. [Roadmap and open questions](docs/07-roadmap-and-open-questions.md)
+8. [Prior art: Uber (uReview, ADR)](docs/08-prior-art-uber.md)
 
 ## One-paragraph version
 
